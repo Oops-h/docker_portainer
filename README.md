@@ -3,10 +3,15 @@
 
 # 安装docker 
 这里使用官方脚本一键安装
+
 $ curl -sSL https://get.docker.com/ | sh
+
 等待脚本执行完毕后，测试hello world 镜像
+
 $ docker run hello-world
+
 测试成功
+
 
 
 
