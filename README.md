@@ -15,8 +15,11 @@ $ docker run hello-world
 
 
 
-安装portainer
-拉取portainner 镜像
-$ docker pull portainer   
+# 安装portainer
+查找portainner 镜像
+
+$ docker search portainer
+
+$ docker pull portainer/portainer-ce(以为第一个版本会收费，所以选择ce版本)
 下载完成后运行portainer
 $ docker run -d -p 9000:9000 --privileged -v /var/run/docker.sock:/var/run/docker.sock 
