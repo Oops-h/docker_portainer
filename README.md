@@ -37,9 +37,12 @@ $ docker run -d -p 9000:9000 --privileged -v /var/run/docker.sock:/var/run/docke
 /var/run/docker.sock它是Docker守护进程(Docker daemon)默认监听的Unix域套接字(Unix domain socket)，容器中的进程可以通过它与Docker守护进程进行通信。
 
 Portainer通过绑定的/var/run/docker.sock文件与Docker守护进程通信，执行各种管理操作
+
 关于/var/run/docker.sock 可参考文章
 https://www.cnblogs.com/fundebug/p/6723464.html
 
 # 成功运行部署portainer
+
 进入腾讯云9000端口查看是否成功
+
 http://42.193.184.8:9000
